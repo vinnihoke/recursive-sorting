@@ -107,7 +107,6 @@ def merge_in_place(arr, start, mid, end):
             start += 1
             mid += 1
             start2 += 1
-    return arr
 
 # we don't return anything in in-place functions
 # since we're directly mutating the input array
@@ -133,6 +132,6 @@ def timsort(arr):
     return arr
 
 
-test = [6, 3, 7, 2, 1, 8, 9, 4, 10, 5]
-print(merge_sort(test))
-print(merge_sort_in_place(test, 0, len(test) - 1))
+# test = [6, 3, 7, 2, 1, 8, 9, 4, 10, 5]
+# print(merge_sort(test))
+# print(merge_sort_in_place(test, 0, len(test) - 1))
